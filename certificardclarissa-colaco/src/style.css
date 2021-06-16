@@ -1,0 +1,98 @@
+body {
+  font-family: Calibri;
+  color: #000;
+  background-color: #E9CFF2;
+  animation-name: efeito;
+  animation-duration: 25s;  
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+ 
+}
+section {
+  -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+  border-radius: 5%;
+  box-shadow
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  max-width: 500px;
+  margin-top: 100px;
+  padding: 15px;
+  border: 8px solid white;
+}
+@keyframes efeito {
+   0%   {background-color: #E9CFF2;}
+  25%  {background-color: #72358B;}
+  50%  {background-color: #B8A4BE;}
+  100% {background-color: #463B4A;} 
+}
+section h1{
+    text-align:center;
+    font-size: 35px;
+}
+div {
+  
+  margin: 15px;
+  border: 1px solid black;
+  background: linear-gradient(to bottom right, white, #D8BFD8);
+  color: #000;
+  font-size: 14pt;
+}
+header {
+  background-image: url('http://4.bp.blogspot.com/-kSH3cK0_kp0/U2wHT9NhRsI/AAAAAAAAFlo/V2Jy_r_f6cA/s1600/sailor+moon+9.gif');
+    
+}
+img.avatar { border: 8px solid white;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-55%);}
+
+
+img.icones {
+  width: 30px;
+  height: 30px;
+    } 
+
+img {
+  border: 8px solid white;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  transform: translateY(-55%);
+}
+img:hover {
+  opacity: 0.3;
+}
+a:link {
+  color: #842DA1;
+  text-decoration:none;
+  
+}
+
+
+a:visited {
+  color: #842DA1;
+}
+
+
+a:hover {
+  color: #fff;
+  opacity: 0.3;
+  background-color: #842DA1;
+  cursor: crosshair;
+}
+
+
+a:active {
+  color: blue;
+}
+
+
+
+
